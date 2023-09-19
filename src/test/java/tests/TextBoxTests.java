@@ -22,5 +22,3 @@ public class TextBoxTests extends TestBase {
                 .checkResult("Permananet Address :Sevastopol, Russia");
     }
 }
-
-
