@@ -19,7 +19,7 @@ public class DemoQAFormTests extends TestBase {
                 .setBirthDate("03", "March", "1990")
                 .setSubject("English")
                 .setHobby("Sports")
-                .setPicture("test.jpg")
+                .setPicture("test1.jpg")
                 .setUserAddress("Saint Petersburg, Russia")
                 .setState("NCR")
                 .setCity("Delhi")
@@ -33,8 +33,10 @@ public class DemoQAFormTests extends TestBase {
                 .checkResult("03 March,1990")
                 .checkResult("English")
                 .checkResult("Sports")
-                .checkResult("test.jpg")
+                .checkResult("test1.jpg")
                 .checkResult("Saint Petersburg, Russia")
                 .checkResult("NCR Delhi");
     }
 }
+
+
